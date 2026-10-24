@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "spawnerguard",
+  "version": "${version}",
+  "name": "SpawnerGuard",
+  "description": "Tu dong dao spawner cat vao tui/ender chest khi co nguoi lai gan, sau do thoat game va tu vao lai.",
+  "authors": [
+    "tenban"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.tenban.spawnerguard.SpawnerGuard"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
